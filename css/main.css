@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Allerta Stencil';
+    src: url('/font/AllertaStencil-Regular.ttf');
+}
+
+html,
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+    font-size: 16px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+H1 {
+    color: #fff;
+    font-size: 33px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+H2{
+    font-size: 33px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+H3 {
+    font-size: 26px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+H4 {
+    font-size: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+H5 {
+    font-size: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+H6 {
+    font-size: 16px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1248px;
+    margin-top: 66px;
+}
+
+#logo a{
+    display: inline-block;
+    font-size: 35px;
+    font-family: Allerta Stencil;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40.5px;
+    cursor: pointer;
+}
+
+#logo:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #A18A68;
+    transition: width 0.5s ease;
+}
+
+#logo:hover:after {
+    width: 100%;
+}
+
+.gold {
+    color: #A18A68;
+}
+
+.nav a,
+.menu a {
+    display: inline-block;
+}
+
+.nav a:after,
+.menu a:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #A18A68;
+    transition: width 0.5s ease;
+}
+
+.nav a:hover:after,
+.menu a:hover:after {
+    width: 100%;
+}
+
+.menu-a {
+    margin-right: 39px;
+}
+
+.hr {
+    background: #707070;
+    width: 1px;
+    height: 17px;
+    margin-right: 48px;
+}
+ul {
+    margin-right: 48px;
+    margin-left: 500px;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    margin-left: 64px;
+}
