@@ -166,7 +166,7 @@ li a {
 /* SECTION */
 
 .banner {
-    background-image: url(/css/img/screen.jpeg);
+    background-image: url(./css/img/screen.jpeg);
     width: 1248px;
     height: 646px;
     border-radius: 16px;
@@ -305,7 +305,7 @@ main {
     width: 377px;
     height: 380px;
     border-radius: 8px 8px 0px 0px;
-    background-image: url(/css/img/this/1.jpeg);
+    background-image: url(./css/img/this/1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
@@ -315,7 +315,7 @@ main {
     width: 377px;
     height: 380px;
     border-radius: 8px 8px 0px 0px;
-    background-image: url(/css/img/this/2.jpeg);
+    background-image: url(./css/img/this/2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
@@ -325,7 +325,7 @@ main {
     width: 377px;
     height: 380px;
     border-radius: 8px 8px 0px 0px;
-    background-image: url(/css/img/this/3.jpeg);
+    background-image: url(./css/img/this/3.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
@@ -335,7 +335,7 @@ main {
     width: 377px;
     height: 380px;
     border-radius: 8px;
-    background-image: url(/css/img/this/4.jpeg);
+    background-image: url(./css/img/this/4.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
@@ -345,7 +345,7 @@ main {
     width: 377px;
     height: 380px;
     border-radius: 8px 8px 0px 0px;
-    background-image: url(/css/img/this/5.jpeg);
+    background-image: url(./css/img/this/5.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
@@ -355,7 +355,7 @@ main {
     width: 377px;
     height: 380px;
     border-radius: 8px 8px 0px 0px;
-    background-image: url(/css/img/this/6.jpeg);
+    background-image: url(./css/img/this/6.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
