@@ -373,20 +373,44 @@ main {
 
 }
 
+.i_shopping {
+    content: url(../css/img/shopping.svg);
+    padding: 15px;
+}
+
+.i_heart {
+    content: url(../css/img/heart.svg);
+    padding: 15px;
+}
+
+.i_glass {
+    content: url(../css/img/glass.svg);
+    padding: 15px;
+}
+
+.i_shopping:hover {
+    background-color: #000;
+    content: url(../css/img/shopping_active.svg);
+    border-radius: 8px;
+}
+
+.i_heart:hover {
+    background-color: #000;
+    content: url(../css/img/heart_active.svg);
+    border-radius: 8px;
+}
+
+.i_glass:hover {
+    background-color: #000;
+    content: url(../css/img/glass_active.svg);
+    border-radius: 8px;
+}
+
 .puk:hover .img_menu {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.img_menu img {
-    padding: 15px;
-}
-
-.img_menu img:hover {
-    background-color: #000;
-    color: #fff;
-} 
 
 /* FOOTER */
 
