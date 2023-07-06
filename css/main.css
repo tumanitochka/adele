@@ -334,7 +334,7 @@ main {
 .puk_img4 {
     width: 377px;
     height: 380px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0px 0px;
     background-image: url(../css/img/this/4.jpeg);
     background-repeat: no-repeat;
     background-position: center;
