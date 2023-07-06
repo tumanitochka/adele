@@ -365,7 +365,6 @@ main {
     content: "";
     border-radius: 8px 8px 0px 0px;
     background: rgba(255, 255, 255);
-    display: block;
     width: 380px;
     height: 380px;
     opacity: 0.8;
@@ -381,8 +380,13 @@ main {
 }
 
 .img_menu img {
-    margin-left: 30px;
+    padding: 15px;
 }
+
+.img_menu img:hover {
+    background-color: #000;
+    color: #fff;
+} 
 
 /* FOOTER */
 
