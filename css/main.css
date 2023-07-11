@@ -175,7 +175,7 @@ li a {
 
 .banner_label {
     margin-top: 226px;
-    margin-left: 39px;
+    margin-left: 50px;
 }
 
 .btn_banner {
@@ -463,4 +463,10 @@ input[type=text] {
     justify-content: space-between;
     margin-top: 48px;
     margin-bottom: 92px;
+}
+
+/* Слайдер */
+
+.itc-slider {
+    height: 646px;
 }
