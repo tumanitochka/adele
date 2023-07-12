@@ -139,4 +139,31 @@ h1 {
 
 .heart:active {
     filter: none;
+    transition: filter 0.2s ease-in-out;
+}
+
+.proBar {
+    border: solid 1px #3f3f3f;
+    width: 250px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+.bar {
+    background-color: #818181;
+    width: 1px;
+    height: 10px;
+}
+
+.barAnimal {
+    animation: barAnimal 2s infinite;
+}
+
+@keyframes barAnimal {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 100%;
+    }
 }
