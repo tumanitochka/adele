@@ -37,7 +37,7 @@ h1 {
 }
 
 .img-1 {
-    background-image: url(/calc.png);
+    background-image: url(../calc.png);
     background-size: 40px 40px;
     background-repeat: no-repeat;
     width: 40px;
@@ -47,7 +47,7 @@ h1 {
 }
 
 .img-2 {
-    background-image: url(/book.png);
+    background-image: url(../book.png);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     width: 50px;
@@ -56,7 +56,7 @@ h1 {
 }
 
 .img-3 {
-    background-image: url(/paper.png);
+    background-image: url(../paper.png);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     width: 50px;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .img-4 {
-    background-image: url(/pallete.png);
+    background-image: url(../pallete.png);
     background-size: 40px 40px;
     background-repeat: no-repeat;
     width: 40px;
@@ -76,7 +76,7 @@ h1 {
 
 .img-5 {
 
-    background-image: url(/pencil.png);
+    background-image: url(../pencil.png);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     width: 50px;
@@ -123,7 +123,7 @@ h1 {
 }
 
 .heart {
-    background-image: url(/favorites.png);
+    background-image: url(../favorites.png);
     background-size: 40px;
     width: 40px;
     height: 40px;
