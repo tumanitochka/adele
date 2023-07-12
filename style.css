@@ -151,12 +151,13 @@ h1 {
 
 .bar {
     background-color: #818181;
-    width: 1px;
+    width: 10px;
     height: 10px;
+    box-shadow: inset 55px 0 55px -55px rgba(0,2,3,.15);
 }
 
 .barAnimal {
-    animation: barAnimal 2s infinite;
+    animation: barAnimal 10s infinite;
 }
 
 @keyframes barAnimal {
@@ -164,6 +165,6 @@ h1 {
         margin-left: 0;
     }
     100% {
-        margin-left: 100%;
+        margin-left: 96%;
     }
 }
