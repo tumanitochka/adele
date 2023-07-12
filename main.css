@@ -14,21 +14,22 @@
     height: 100vh;
  }
 
-.heart {
+ .heart {
     background-image: url(favorites.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 380px;
     height: 370px;
     filter: grayscale(100%);
-}
+    cursor: pointer;
+ }
 
 
-.heart:active {
+ .heart:active {
     filter: none;
     transform: scale(1.2);
     transition: transform 1s;
-}
+ }
 
 
 
@@ -56,13 +57,13 @@
  }
 
  @keyframes bar {
-     0% {
-        margin-left: 0;
-     }
+    0% {
+       margin-left: 0;
+    }
 
-     50% {
-        margin-left: 100%;
-     }
+    50% {
+       margin-left: 100%;
+    }
  }
 
 
@@ -87,31 +88,35 @@
     margin-top: 50px;
  }
 
-.img-1 {
+ .img-1 {
     background-image: url(/calc.png);
     background-size: 50px 50px;
+    background-repeat: no-repeat;
     width: 50px;
     height: 50px;
-    transform: rotate(-0.1turn);
-}
+    transform: rotate(-40deg);
+ }
 
-.img-2 {
+ .img-2 {
     background-image: url(/book.png);
     background-size: 50px 50px;
+    background-repeat: no-repeat;
     width: 50px;
     height: 50px;
-}
+ }
 
-.img-3 {
+ .img-3 {
     background-image: url(/paper.png);
     background-size: 50px 50px;
+    background-repeat: no-repeat;
     width: 50px;
     height: 50px;
-}
+ }
 
-.img-4 {
+ .img-4 {
     background-image: url(/pallete.png);
     background-size: 50px 50px;
+    background-repeat: no-repeat;
     width: 50px;
     height: 50px;
-}
+ }

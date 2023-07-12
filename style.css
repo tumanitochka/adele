@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.mySite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    width: 500px;
+    height: 290px;
+    padding: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 40px;
+}
+
+.i {
+    margin-left: 10px;
+}
+
+.img-1 {
+    background-image: url(/calc.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    transform: rotate(320deg);
+    margin-top: 40px;
+}
+
+.img-2 {
+    background-image: url(/book.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    transform: rotate(340deg);
+}
+
+.img-3 {
+    background-image: url(/paper.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    transform: rotate(380deg);
+}
+
+.img-4 {
+    background-image: url(/pallete.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    transform: rotate(220deg);
+    margin-top: 40px;
+}
+
+.img-5 {
+
+    background-image: url(/pencil.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+}
+
+.imgAnimal {
+    animation-name: itemAnimal;
+    animation-duration: 0.5s;
+}
+
+.imgAnimal2 {
+    animation-name: itemAnimal;
+    animation-duration: 1s;
+}
+
+.imgAnimal3 {
+    animation-name: itemAnimal;
+    animation-duration: 1.5s;
+}
+
+.imgAnimal4 {
+    animation-name: itemAnimal;
+    animation-duration: 2s;
+}
+
+.imgAnimal5 {
+    animation-name: itemAnimal;
+    animation-duration: 2.5s;
+}
+
+@keyframes itemAnimal {
+    0% {
+        position: fixed;
+        top: 5000px;
+    }
+
+    50% {
+        position:relative;
+        top: 0;
+    }
+
+}
+
+.heart {
+    background-image: url(/favorites.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    filter: grayscale(1);
+}
+
+.heart:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.heart:active {
+    filter: none;
+}
