@@ -157,7 +157,7 @@ h1 {
 }
 
 .barAnimal {
-    animation: barAnimal 10s infinite;
+    animation: barAnimal 2s infinite;
 }
 
 @keyframes barAnimal {
