@@ -602,7 +602,37 @@ input[type=text] {
 
     .banner {
         width: 288px;
-        height: 299px;
+        height: 354px;
+        background: center / cover no-repeat url("../css/img/screen.jpeg");
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 130% */
+        text-transform: capitalize;
+    }
+
+    h3 {
+        font-family: DM Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .banner_label {
+        margin-top: 205px;
+        margin-left: 20px;
+    }
+
+    .btn_banner {
+        width: 92px;
+        height: 32px;
+        margin-top: 14px;
     }
 
     .itc-slider {
@@ -673,5 +703,14 @@ input[type=text] {
     .social {
         flex-direction: column;
         margin-top: 20px;
+    }
+
+    .puk_img1,
+    .puk_img2,
+    .puk_img3,
+    .puk_img4,
+    .puk_img5,
+    .puk_img6 {
+        width: auto;
     }
 }
